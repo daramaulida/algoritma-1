@@ -24,7 +24,7 @@
     <h2>Masukkan Nilai Anda</h2>
     <form action="output.php" method="post">
         <label for="nilai">Nilai:   </label>
-        <input type="POST" required><br><br>
+        <input type="NUMBER" id="nilaikelulusan" name="nilaikelulusan"required><br><br>
         <input type="submit" value="Tentukan Kelulusan">
     </form>
 </body>
