@@ -15,12 +15,17 @@ $v = 8*5;
 ?>
 
 <p>
-    <a href="index.php">
-    <button>Kembali ke Index</button>
-</a>
-</p>
+      <a href="index.php">
+            <button>kembali ke Index</button>
+      </a><br>
+</p><a href="input.php">
+            <button>kembali ke Input</button>
+      </a>
 
-<p>atau kembali ke : </p>
+<p>atau kembali ke : 
 <a href="../">
       <button>Folder Awal</button>
 </a>
+</p>
+</body>
+</html>
