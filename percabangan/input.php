@@ -1,31 +1,17 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-
-    <title>KELULUSAN NILAI</title>
-</head>
-
-<body>
-    <h4>Selamat datang di Program Project Percabangan Notasi Algoritma </h4>
-    <table>
-    <th>
-    <td>
-        <tr>Anda Login Sebagai : Dara Maulida </tr>
-    </td>
-    </th>
-    <form action="output.php" method="post">
-<html>
-<head>
-    <title>Menentukan Kelulusan Nilai</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Nilai Kelulusan</title>
 </head>
 <body>
     <h2>Masukkan Nilai Anda</h2>
-    <form action="output.php" method="post">
-        <label for="nilai">Nilai:   </label>
-        <input type="NUMBER" id="nilaikelulusan" name="nilaikelulusan"required><br><br>
-        <input type="submit" value="Tentukan Kelulusan">
+    <form action="input2.php" method="post">
+        <label for="nilai">Nilai:</label>
+        <input type="number" name="nilai" id="nilai" required>
+        <br><br>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
